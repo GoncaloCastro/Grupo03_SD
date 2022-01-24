@@ -1,1 +1,0 @@
-pygmentize -l yaml -f latex -P commandprefix=PYG -F tokenmerge -o AuxFiles//main.out.pyg "/../.github/workflows/project-workflow-fase-2.yml"@\endcsname 
