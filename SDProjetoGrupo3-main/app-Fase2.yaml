@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-app-demo
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      todo-app: web
+  template:
+    metadata:
+      labels:
+        todo-app: web
+    spec:
+      containers:
+      - name: todo-app-site
+        image: 2027617/projetogrupo3sd:latest
+        ports:
+        - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: todo-app
+  namespace: default
+spec:
+  type: LoadBalancer
+  selector:
+    todo-app: web
+  ports:
+    - port: 80
+      targetPort: 3000

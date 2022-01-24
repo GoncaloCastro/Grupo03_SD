@@ -1,0 +1,70 @@
+Enunciado do Projeto
+
+Fluxo de trabalho de CI/CD para aplicações na nuvem com AKS e K3s
+
+    Objetivos:
+        Conhecer as componentes principais de Docker e Kubernetes.
+
+        Criar e administrar contentores com Docker.
+
+        Construir um fluxo de trabalho de integração contínua e entrega contínua (CI/CD) usando as ferramentas VS Code, GitHub, Azure Container Registry e Azure Kubernetes Service.
+
+        Saber gerir o processo de orquestração de contentores com Kubernetes.
+
+        Construir um cluster Kubernetes local com Raspberry Pi e K3s.
+
+
+    Requisitos principais do projeto (35%):
+        Gerir o fluxo de trabalho de CI/CD usando as ferramentas propostas.
+
+        Colocar aplicações a correr no no Azure Kubernetes Services.
+
+        Publicar as aplicações de todos os grupos de projeto.
+
+
+    Outros requisitos (15%):
+        Construir cluster local com Raspberry Pi e k3s.
+
+        Configurar a colocação das aplicações no cluster local.
+
+
+    Extra (até 20% de bónus):
+        Automatizar parte ou todo o fluxo de atualização das aplicações.
+
+        Explorar e integrar no projeto outras componentes, tais como, Azure Pipelines ou GitHub Actions, Azure Active Directory, Azure Monitor ou outras.
+
+
+    1ª fase: 9/12/2021 Utilização de ACR e AKS (8.3%):
+        Incluir:
+            Arquitetura e código fonte da app usada. Pode (e deve) ser usado GitHub para partilhar o código.
+
+            Esquema do pipeline implementado.
+
+            Sequência de tarefas ou passos efetuados com os respetivos comandos para que seja possível replicar o processo.
+
+
+        Demonstração na aula (15/12/2021):
+            Efetuar os passos e mostrar a app a correr no AKS.
+
+
+    Entre 15/12 e 12/01 montagem do cluster local (a combinar)
+        Ponto de situação (5/01/2021):
+            Versão draft do relatório com um parágrafo ou dois a descrever o conteúdo de cada secção
+
+        Proposta de estrutura do relatório:
+            Resumo (1 pg) - Feito (1 Pag)
+
+            Introdução (1-3 pgs) - Feito (1 Pag)
+
+            Descrição das atividades (3-8 pgs) - Feito (7 Pag)
+
+            Análise de resultados (2-4 pgs) - Por Fazer
+
+            Conclusão e trabalho futuro (1-2 pgs) - Por Concluir
+
+
+    Entrega do relatório (24/01/2022) (16.7%) :
+        10-20 páginas; A4, Tamanho de letra 12, 1.5 espaçamento entre linhas; margens normais
+
+
+    Apresentação, demos e discussão (26/01/2022) (25%)
